@@ -5,4 +5,4 @@ from diagrams.aws.network import ELB
 
 
 with Diagram("AWS Architecture", filename="image", outformat="png", show=False):
-    EC2("Web Server") >> RDS("Database")>> ELB("Storage")
+    EC2("Web Server") >> RDS("Database")>> ELB("Strage")
